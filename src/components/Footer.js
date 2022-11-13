@@ -17,10 +17,10 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/paulo-henrique-santos-resende-4b9726202/" target="_blank"><img src={navIcon1} alt="linkedin" /></a>
-              <a href="https://www.facebook.com/paulohenrique.santosresende" target="_blank"><img src={navIcon2} alt="facebook" /></a>
-              <a href="https://www.instagram.com/paulohsresende/" target="_blank"><img src={navIcon3} alt="Instagram" /></a>
-              <a href="https://github.com/paulohenriqueresende10" target="_blank"><img src={navIcon4} alt="instagram" /></a>
+              <a href="https://www.linkedin.com/in/paulo-henrique-santos-resende-4b9726202/" target="_blank" rel="noreferrer"><img src={navIcon1} alt="linkedin" /></a>
+              <a href="https://www.facebook.com/paulohenrique.santosresende" target="_blank" rel="noreferrer"><img src={navIcon2} alt="facebook" /></a>
+              <a href="https://www.instagram.com/paulohsresende/" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Instagram" /></a>
+              <a href="https://github.com/paulohenriqueresende10" target="_blank" rel="noreferrer"><img src={navIcon4} alt="instagram" /></a>
             </div>
             <p>Copyright 2022. Todos direitos reservados a Paulo Henrique®</p>
           </Col>

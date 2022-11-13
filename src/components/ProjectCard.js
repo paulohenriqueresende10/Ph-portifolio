@@ -1,4 +1,4 @@
-import { Col, Navbar } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 
 export const ProjectCard = ({ title, description, imgUrl, link }) => {
   return (

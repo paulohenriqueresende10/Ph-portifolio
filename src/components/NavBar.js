@@ -51,10 +51,10 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/paulo-henrique-santos-resende-4b9726202/" target="_blank"><img src={navIcon1} alt="linkedin" /></a>
-                <a href="https://www.facebook.com/paulohenrique.santosresende" target="_blank"><img src={navIcon2} alt="facebook" /></a>
-                <a href="https://www.instagram.com/paulohsresende/" target="_blank"><img src={navIcon3} alt="instagram" /></a>
-                <a href="https://github.com/paulohenriqueresende10" target="_blank"><img src={navIcon4} alt="instagram" /></a>
+                <a href="https://www.linkedin.com/in/paulo-henrique-santos-resende-4b9726202/" target="_blank" rel="noreferrer"><img src={navIcon1} alt="linkedin" /></a>
+                <a href="https://www.facebook.com/paulohenrique.santosresende" target="_blank" rel="noreferrer"><img src={navIcon2} alt="facebook" /></a>
+                <a href="https://www.instagram.com/paulohsresende/" target="_blank" rel="noreferrer"><img src={navIcon3} alt="instagram" /></a>
+                <a href="https://github.com/paulohenriqueresende10" target="_blank" rel="noreferrer"><img src={navIcon4} alt="instagram" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Entre em contato</span></button>
