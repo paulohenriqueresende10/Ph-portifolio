@@ -4,6 +4,7 @@ import logo from '../assets/img/logo.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon4 from '../assets/img/nav-icon4.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -53,6 +54,7 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/paulo-henrique-santos-resende-4b9726202/" target="_blank"><img src={navIcon1} alt="linkedin" /></a>
                 <a href="https://www.facebook.com/paulohenrique.santosresende" target="_blank"><img src={navIcon2} alt="facebook" /></a>
                 <a href="https://www.instagram.com/paulohsresende/" target="_blank"><img src={navIcon3} alt="instagram" /></a>
+                <a href="https://github.com/paulohenriqueresende10" target="_blank"><img src={navIcon4} alt="instagram" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Entre em contato</span></button>
